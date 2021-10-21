@@ -50,6 +50,10 @@ public function connexion()
     return view('connexion');
 }
 
+public function categorie()
+{
+    return view('categorie');
+}
 }
 
 

@@ -81,7 +81,9 @@
   </div>
   <h2 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Location entre particulier</h2>
     <div>
+    
     <div class="flex flex-wrap -m-4">
+    <a href="categorie">
       <div class="xl:w-1/4 md:w-1/2 p-4">
         <div class="bg-gray-100 p-6 rounded-lg">
           <img class="h-40 rounded w-full object-cover object-center mb-6" src="image/bricolage.jpg" alt="content">
@@ -89,7 +91,9 @@
           <h2 class="text-lg text-gray-900 font-medium title-font mb-4">outil de bricolage</h2>
           <!-- <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p> -->
         </div>
+        </a>
       </div>
+      <a href="categorie">
       <div class="xl:w-1/4 md:w-1/2 p-4">
         <div class="bg-gray-100 p-6 rounded-lg">
           <img class="h-40 rounded w-full object-cover object-center mb-6" src="image/mecanique_2.jpg" alt="content">
@@ -97,7 +101,9 @@
           <h2 class="text-lg text-gray-900 font-medium title-font mb-4">materiel de mecanique</h2>
           <!-- <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p> -->
         </div>
+        </a>
       </div>
+      <a href="categorie">
       <div class="xl:w-1/4 md:w-1/2 p-4">
         <div class="bg-gray-100 p-6 rounded-lg">
           <img class="h-40 rounded w-full object-cover object-center mb-6" src="image/nettoyage_2.jpg" alt="content">
@@ -105,7 +111,9 @@
           <h2 class="text-lg text-gray-900 font-medium title-font mb-4">materiel de netoyage</h2>
           <!-- <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p> -->
         </div>
+        </a>
       </div>
+      <a href="categorie">
       <div class="xl:w-1/4 md:w-1/2 p-4">
         <div class="bg-gray-100 p-6 rounded-lg">
           <img class="h-40 rounded w-full object-cover object-center mb-6" src="image/chantier_2.jpg" alt="content">
@@ -113,6 +121,7 @@
           <h2 class="text-lg text-gray-900 font-medium title-font mb-4">materiel de chantiers</h2>
           <!-- <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p> -->
         </div>
+        </a>
         </div>
     </div>
   </div>

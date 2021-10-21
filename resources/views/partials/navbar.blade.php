@@ -8,7 +8,7 @@
     </a>
     <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
       <a class="mr-5 hover:text-gray-900" href="/">Accueil</a>
-      <a class="mr-5 hover:text-gray-900"href="connexion">Categorie</a>
+      <a class="mr-5 hover:text-gray-900"href="categorie">Categorie</a>
       <a class="mr-5 hover:text-gray-900"href="/contact">Contact</a>
       <a class="mr-5 hover:text-gray-900"href="/inscription">Inscription</a>
     </nav>
