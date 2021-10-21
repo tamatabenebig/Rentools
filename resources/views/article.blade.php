@@ -1,4 +1,4 @@
-@extends('layouts.app')
+<!-- @extends('layouts.app')
 
 @section('content')
 <h1>Liste des articles</h1>
@@ -7,4 +7,4 @@
     <h3>{{ $post }}</h3>
     @endforeach
 
-    @endsection
+    @endsection -->

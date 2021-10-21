@@ -33,10 +33,23 @@ class PostController extends Controller
 
     }
 
+  
     public function contact()
     {
         return view('contact');
     }
 
+
+public function inscription()
+{
+    return view('inscription');
 }
+
+public function connexion()
+{
+    return view('connexion');
+}
+
+}
+
 

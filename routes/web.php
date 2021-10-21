@@ -14,12 +14,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+// Route::get('/connexion', function () {
+//     return view('connexion');
+// })->name('connexion');
 
 Route::get('/', [PostController::class,'index']);
 
 Route::get('/posts/{id}', [PostController::class, 'show']);
 
 Route::get('/contact', [PostController::class, 'contact']);
+
+Route::get('/inscription', [PostController::class, 'inscription']);
+
+Route::get('/connexion', [PostController::class, 'connexion'])->name('connexion');
