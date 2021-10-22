@@ -54,6 +54,10 @@ public function categorie()
 {
     return view('categorie');
 }
+public function rentals()
+{
+    return view('rentals');
+}
 }
 
 
