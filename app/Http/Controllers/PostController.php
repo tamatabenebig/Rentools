@@ -3,20 +3,22 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Post;
 
 class PostController extends Controller
 {
     public function index()
     {
-        $posts = [
+        $posts=[
             'Mon super premier titre',
-            'Mon super second titre'
+            'mon super second titre'
         ];
-
+    
         return view('article', [
             'posts' => $posts
         ]);
     }
+    
 
     public function show($id)
     {
@@ -52,7 +54,12 @@ public function connexion()
 
 public function categorie()
 {
-    return view('categorie');
+    $posts = Post::all();
+
+
+    return view('categorie', [
+        'posts' => $posts
+    ]);
 }
 public function rentals()
 {

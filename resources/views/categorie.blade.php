@@ -8,9 +8,23 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
  @include('partials.navbar')
- <section class="bg-gray-200 text-gray-600 body-font">
-  
- <section class="text-gray-600 body-font overflow-hidden">
+ <!-- <section class="bg-gray-200 text-gray-600 body-font"> -->
+  @section('content')
+
+    <h1>liste des articles</h1>
+
+    @if ($posts->count() > 100)
+    
+    @foreach($posts as $post)
+    
+    <h3>{{ $post->title }}</h3>
+    
+    @endforeach
+@else
+<span>Aucune nouvelle annonces</span>
+@endif
+   
+ <section class="text-gray-600 body-f  ont overflow-hidden">
   <div class="container px-5 py-24 mx-auto">
     <div class="-my-8 divide-y-2 divide-gray-100">
       <div class="py-8 flex flex-wrap md:flex-nowrap">
@@ -66,4 +80,3 @@
 
 
   @include('partials.footer')
-</section>
