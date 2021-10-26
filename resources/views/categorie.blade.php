@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
  @include('partials.navbar')
- <!-- <section class="bg-gray-200 text-gray-600 body-font"> -->
+ <section class="bg-gray-200 text-gray-600 body-font">
   @section('content')
 
     <h1>liste des articles</h1>
 
-    @if ($posts->count() > 100)
+    @if ($posts->count() > 0)
     
     @foreach($posts as $post)
     
