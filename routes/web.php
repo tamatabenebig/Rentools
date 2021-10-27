@@ -42,8 +42,8 @@ Route::get('/connexion', [App\Http\Controllers\HomeController::class, 'connexion
 Route::get('connexion', function(){
     return view('connexion');
 })->middleware('auth');
-Route::get('contact', 'ContactsController@create')->name('contact.create');
-Route::post('contact', 'ContactsController@store')->name('contact.store');
+// Route::get('contact', 'ContactsController@create')->name('contact.create');
+// Route::post('contact', 'ContactsController@store')->name('contact.store');
 
 
-Route::get('contact',[ContactsController::class, 'contact']);
+// Route::get('contact',[ContactsController::class, 'contact']);
