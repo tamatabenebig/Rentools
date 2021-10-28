@@ -23,9 +23,14 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PostController::class,'index']);
 
-Route::get('/posts/{id}', [PostController::class, 'show']);
+Route::get('/posts/create', [PostController::class, 'create'])->name('posts.create');
 
-// Route::get('/contact', [PostController::class, 'contact']);
+Route::post('/posts/create', [PostController::class, 'store'])->name('posts.store');
+
+
+// Route::get('/posts/{id}', [PostController::class, 'show']);
+
+Route::get('/contact', [PostController::class, 'contact']);
 
 Route::get('/inscription', [PostController::class, 'inscription']);
 

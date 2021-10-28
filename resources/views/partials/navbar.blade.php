@@ -10,6 +10,7 @@
       <a class="mr-5 hover:text-gray-900" href="/">Accueil</a>
       <a class="mr-5 hover:text-gray-900"href="categorie">Categorie</a>
       <a class="mr-5 hover:text-gray-900"href="/contact">Contact</a>
+      <a class="mr-5 hover:text-gray-900"href="{{ route('posts.create') }}">Post</a>
       <a class="mr-5 hover:text-gray-900"href="/register">Inscription</a>
     </nav>
     <a href="connexion">

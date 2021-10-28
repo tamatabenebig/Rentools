@@ -34,7 +34,24 @@ class PostController extends Controller
         ]);
 
     }
+    public function create()
+    {
+        return view('form');
+    }
 
+    public function store(Request $request)
+    {
+        // $post = new Post();
+        // $post->name = $request->name;
+        // $post->email = $request->email;
+        // $post->message = $request->message;
+        // $post->save();
+        Post::create([
+            'titre' => $request->titre,
+            'description' => $request->description
+        ]);
+        return view('form');
+    }
   
     public function contact()
     {
@@ -65,6 +82,8 @@ public function rentals()
 {
     return view('rentals');
 }
+
+
 }
 
 
