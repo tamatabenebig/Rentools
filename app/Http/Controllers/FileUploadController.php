@@ -9,24 +9,28 @@ class FileUploadController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return response()
      */
+
     public function fileUpload()
     {
         return view('fileUpload');
     }
-  
+
     /**
-     * Display a listing of the resource.
+     * Write code on Method
      *
-     * @return \Illuminate\Http\Response
+     * @return response()
      */
+
     public function fileUploadPost(Request $request)
     {
         $request->validate([
-            'file' => 'required|mimes:png,jpg,pdf,xlx,csv|max:2048',
+
+            'file' => 'required|mimes:jpeg,png,jpg,gif,svg|max:2048',
+
         ]);
-  
+
         $fileName = time().'.'.$request->file->extension();  
    
         $request->file->move(public_path('uploads'), $fileName);

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
 @include('partials.navbar')
@@ -14,7 +15,7 @@
 <div class="container">
    
     <div class="panel panel-primary">
-      <div class="panel-heading"><h2>laravel 8 file upload example - ItSolutionStuff.com.com</h2></div>
+      <div class="panel-heading"><h2>upload fichier image</h2></div>
       <div class="panel-body">
    
         @if ($message = Session::get('success'))
